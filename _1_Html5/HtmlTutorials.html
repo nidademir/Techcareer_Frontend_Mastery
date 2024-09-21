@@ -49,6 +49,104 @@
     <!-- Main Start Codes -->
     <main id="main_id"></main>
 
+    <!-- FORM + TABLE -->
+    <table border="1" width="100%">
+    <tbody>
+        <tr>
+            <td><label for="uname">Adınız</label></td>
+            <td><input type="text" id="uname" title="Adınız" placeholder="Adınız..." required autofocus>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="uemail">Emailiniz</label></td>
+            <td><input type="email" id="uemail" title="Emailiniz" placeholder="Emailiniz..." required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="upassword">Şifreniz</label></td>
+            <td><input type="password" id="password" title="Şifreniz" placeholder="Şifreniz..." required>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td></td>
+            <td><input type="reset" value="Temizle">
+                <button type="submit">Gönder-2</button>
+            </td>
+        </tr>
+    </tbody>
+    <br>
+    <tfoot>
+        <tr>
+            <th colspan="4">&copy; Bütün Haklar Saklıdır</th>
+        </tr>
+    </tfoot>
+    </table>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <!-- TABLE -->
+    <table border="1" width="100%">
+        <thead>
+            <tr></tr>
+            <th>ID</th>
+            <th>ADI</th>
+            <th>EMAIL</th>
+            <th>PASSWORD</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Adı-1</td>
+                <td>Soyadı-1</td>
+                <td>Şifre-1</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Adı-1</td>
+                <td>Soyadı-1</td>
+                <td>Şifre-1</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4">&copy; Bütün Haklar Saklıdır</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr>
+    <hr>
+
+    <!-- FORM -->
+    <form action="#!" method="get" autocomplete="on" target="_blank">
+        <label for="uname">Adınız</label>
+        <input type="text" id="uname" title="Adınız" placeholder="Adınız..." required autofocus> <br>
+        <!-- autofocus: sayfa açıldığında imleç kutunun içinde yanıp söner, placeholder: kutunun içerisinde silik bir şekilde verilen metin yazar-->
+
+        <label for="uemail">Emailiniz</label>
+        <input type="email" id="uemail" title="Emailiniz" placeholder="Emailiniz..." required> <br>
+
+        <label for="upassword">Şifreniz</label>
+        <input type="password" id="password" title="Şifreniz" placeholder="Şifreniz..." required> <br>
+        <input type="reset" value="Temizle">
+        <input type="submit" value="Gönder-1">
+        <button type="submit">Gönder-2</button>
+    </form> <!-- #!: bulunduğu sayfada kalsın -->
+
+
+
+    <br>
+    <hr>
+
     <!-- DataList -->
     <input type="text" list="frontend" name="Techcareer">
 
