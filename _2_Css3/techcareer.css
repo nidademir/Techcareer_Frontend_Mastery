@@ -1,21 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   /* width:400 = width+border+padding*/
+    box-sizing: border-box;
+    /* width:400 = width+border+padding*/
+}
+
+
+html {
+    font-size: 20px;
+}
+
+body {
+    padding: 0 10%;
+
 }
 
 /*External Css*/
-h2{
-    color:orange;
+h2 {
+    color: orange;
     background-color: black;
 }
 
-#parag_id{
-    font-size: small !important; 
+#parag_id {
+    font-size: small !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     font-style: italic;
-    
+
     text-align: justify;
     text-decoration: underline;
     text-transform: capitalize !important;
@@ -33,11 +44,11 @@ h2{
     -webkit-box-orient: vertical;
     overflow: hidden !important;
     -webkit-line-clamp: 4;
-    
+
 }
 
-.div_class{
-    
+.div_class {
+
     /* 
     margin-top: 10px;
     margin-right: 10px;
@@ -49,8 +60,9 @@ h2{
     margin:10px 10px 10px 10px;
     */
 
-    margin:10px 30px;  /* y-x düzleminde değişiklik yaptı */
-    
+    margin: 10px 30px;
+    /* y-x düzleminde değişiklik yaptı */
+
 
     /* 
     padding-top: 10px;
@@ -64,8 +76,8 @@ h2{
 
     padding:10px 30px;
     */
-    
-    padding:10px 30px;
+
+    padding: 10px 30px;
 
     box-shadow: 10px 1px 10px 1px rgba(0, 0, 0, .7);
     border: 1px solid #ccc !important;
@@ -78,15 +90,15 @@ h2{
 
 /*Color .div_common */
 
-.div_common{
+.div_common {
     /* 
     height: 1rem;
     width: 50%; 
     */
     height: 100px;
-    width: 50%; 
+    width: 50%;
     margin-bottom: 20px;
-    padding:2rem;
+    padding: 2rem;
     box-shadow: 10px 1px 10px 1px rgba(0, 0, 0, .7);
     cursor: pointer;
     display: block;
@@ -94,14 +106,14 @@ h2{
     display: inline;
 }
 
-.color_class{
-    color:white;
+.color_class {
+    color: white;
     background-color: black;
     background-color: red;
     background-color: #f00;
     background-color: #ff0000;
     background-color: rgb(255, 0, 0);
-    background-color: rgb(255, 0, 0,  0.6);
+    background-color: rgb(255, 0, 0, 0.6);
     background-color: rgba(255, 0, 0, .6);
     background-color: hsl(0, 100%, 50%);
     /*
@@ -116,8 +128,8 @@ h2{
 
 }
 
-.a_link{
-    color:#f00;
+.a_link {
+    color: #f00;
     background-color: #000;
     text-decoration: none;
     font-size: 1.5rem;
@@ -135,7 +147,55 @@ h2{
     */
 }
 
-.a_link:hover{
+.a_link:hover {
     color: #000;
     background-color: #f00;
+}
+
+/*List*/
+#ul_id {
+    list-style-type: square;
+    list-style-type: none;
+}
+
+#ul_id li {
+    color: black;
+    background-color: beige;
+    border: 1px solid rgba(0, 0, 0, .8);
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+#ul_id li:hover {
+    color: beige;
+    background-color: black;
+}
+
+/*Table*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+
+table th {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+table td {
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+table td:hover {
+    background-color: white;
+    color: red;
 }
