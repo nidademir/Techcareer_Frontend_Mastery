@@ -349,8 +349,8 @@ input[type="text"]{
 
 }
 
-/**/
-#button_id{
+/*transition, transform*/
+#button_id {
     background-color: #f00;
     color: white;
     padding: 1rem;
@@ -361,8 +361,30 @@ input[type="text"]{
     transition: all 1s ease-out;
 }
 
-#button_id:hover{
+#button_id:hover {
     background-color: white;
     color: #f00;
     transform: rotate(360deg);
+}
+
+img {
+    max-height: 100%;
+    height: auto;
+}
+
+#header_id {
+    background-image: url("../image/ai2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* object-fit: cover; */
+    height: 90vh;
+}
+
+.my_gradient {
+    background: linear-gradient(to left, blue, green);
+    background: linear-gradient(to right, blue, green);
+    /* background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 25%, rgb(255, 238, 0) 25%, rgb(255, 238, 0) 50%, rgba(0,255,0,1) 50%, rgba(0,255,0,1) 75%, rgba(0,0,255,1) 75%, rgba(0,0,255,1) 100%); */
+    width: 100%;
+    height: 200px;
 }
