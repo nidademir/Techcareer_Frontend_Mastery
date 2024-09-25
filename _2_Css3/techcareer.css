@@ -348,3 +348,21 @@ input[type="text"]{
     }
 
 }
+
+/**/
+#button_id{
+    background-color: #f00;
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: all 1s ease-out;
+}
+
+#button_id:hover{
+    background-color: white;
+    color: #f00;
+    transform: rotate(360deg);
+}
